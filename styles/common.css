@@ -1,0 +1,64 @@
+body, html, #mainContainer{
+    height: 100%;
+    width: 100%;
+}
+
+body, html{
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+header{
+    background-color: rosybrown;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 50px;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+A{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}
+
+.login{
+    margin-right: 2%;
+}
+
+.contact{
+    margin-left: 2%;
+    
+}
+
+.copyright{
+    font-size: 10px;
+    order: 2;
+}
+
+.socialmedia{
+    order: 3;
+    margin-right: 2%;
+}
+

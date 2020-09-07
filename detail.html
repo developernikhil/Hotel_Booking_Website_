@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <title>Detail</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/detail.css">
+    </head>
+    <body>
+        <div id="mainContainer">
+            <header>
+                <a href="index.html"><img src="file:///F:/UPGRAD/FSD/course6/Project/Hotel_Booking_Website_Starter_Code/assests/images/logo.png" alt="logo" class="logo" ></a>
+                <a href="login.html" target="_self" class="login">Login</a>
+            </header>
+            <div>
+                <div id="detailscontainer">
+                    <div id="div1">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 350px; width: 500px;"><br>
+                    </div>
+                        <form action="payment.html" method="get" target="_self" id="div2">
+                            <div class="innercontainer">
+                                <label for="adult" >Adults:</label>
+                                <input type="number"  id="adult" name="adult" min="1" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="fromDate">From Date:</label>
+                                <input type="date" id="fromDate" name="fromDate" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="toDate">To Date:</label>
+                                <input type="date" id="toDate" name="toDate" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="price">Total:</label>
+                                <input type="number" id="price" name="price" readonly>
+                            </div>
+                            <div class="innercontainer">
+                                <input type="submit" value="Book Now" class="bookNow">
+                            </div>
+                        </form>
+                </div>
+                <div id="div3">
+                <h2>Radisson Blu Hotel</h2>
+                <span class="text">RATING</span><br>
+                <br>
+                5 Star<br>
+                <br>
+                <span class="text">FACILITIES</span>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <span class="text"><h5>DESCRIPTION</h5></span>
+                 Near Indira Gandhi International Airport and 1.7 KM far bus station.
+                </div>
+            </div>
+            <footer>
+                <a href="contact.html" target="_self" class="contact">Contact Us</a>
+                <div class="socialmedia">
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" style="height: 20px; width: 22px;"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" style="height: 20px; width: 22px;"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" style="height: 20px; width: 22px;"></a>
+                </div>
+                <p class="copyright">&copy; 2020 ROOM SEARCH PVT LTD.</p>
+            </footer>
+        </div>
+    </body>
+</html>
